@@ -1,0 +1,53 @@
+body{
+    
+    background-color: #cccccc;
+    margin: 0;
+}
+
+.logo{
+    background-color: #8a8ae9;
+    text-align: center;
+    padding-top: 30px;
+    color: blue;
+}
+
+.logo h1{
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.logo p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.container-fluid
+{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid h3{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.amountdiv {
+    display: inline-block;
+}
+
+.fromdiv {
+    display: inline-block;
+}
+
+.todiv {
+    display: inline-block;
+}
+
+.result {
+
+    border: 1px dotted blue;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}

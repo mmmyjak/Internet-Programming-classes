@@ -1,0 +1,94 @@
+body{
+	background-color: gray;
+}
+
+h1{
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 45px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: gold;
+}
+
+ul{
+	text-align: center;
+	background-color: red;
+	
+}	
+li {
+	padding: 20px 40px;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 22px;	
+}
+
+.navbar{
+	margin-bottom: 100px;
+	position: sticky;
+	top: 0;
+}
+.container{
+	margin: 10px 100px;
+}
+.tekst{
+	width: 50%;
+	display: inline-block;
+	margin: 0 30px ;
+	margin-bottom: 100px;
+}
+
+.zdjecie
+{
+	margin: 0 30px ;
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+.zdjecie img
+{
+	transition: all 0.5s ease-in-out;
+}
+
+.zdjecie:hover img
+{
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.sociale
+{
+	text-align: center;
+	background-color: gray;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+i
+{
+	font-size: 40px;
+	margin: 0 30px;
+}
+
+
+.stopka{
+	background-color: red;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 1px 0;
+}
